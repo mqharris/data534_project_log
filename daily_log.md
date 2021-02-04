@@ -30,3 +30,7 @@ Checked for code accuracy and stile adherence.
 We talked about our naming convention, we decided to go with shorter funciton names at the cost of not always having them contain a verb.
 I found a flaw in our code. Our api response wasnt being checked for error codes in the right spot which lead to difficult to debug responses for a 403 error code.
 
+### Wednesday Febuary 3rd 2021
+
+I created the PR https://github.com/WraySmith/caRecall/pull/11
+Setup CI/CD for projects with the framework of automated testing. This is important going forward to make sure pushes dont break the code. Ran into an issue using ubuntu for github actions, it said invalid SSL certificate. This isnt an issue now since I switched it to MacOS, but will be solved when we move our project to CRAN. Right now our tests ignore some important bits, but in my next PR I'll address this and make the tests more comprehensive.
