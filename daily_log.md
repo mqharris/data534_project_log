@@ -34,3 +34,27 @@ I found a flaw in our code. Our api response wasnt being checked for error codes
 
 I created the PR https://github.com/WraySmith/caRecall/pull/11
 Setup CI/CD for projects with the framework of automated testing. This is important going forward to make sure pushes dont break the code. Ran into an issue using ubuntu for github actions, it said invalid SSL certificate. This isnt an issue now since I switched it to MacOS, but will be solved when we move our project to CRAN. Right now our tests ignore some important bits, but in my next PR I'll address this and make the tests more comprehensive.
+
+
+### Thursday Febuary 4th 2011
+Merged In https://github.com/WraySmith/caRecall/pull/11/files after some changes.
+Gave code review on https://github.com/WraySmith/caRecall/pull/12.
+
+
+### Friday Febuary 5th 2011
+Gave code review for https://github.com/WraySmith/caRecall/pull/17 to help clarify teammate's code
+Gave code review for https://github.com/WraySmith/caRecall/pull/20/files to help check for code and style consistency
+We did a feature branch PR to main https://github.com/WraySmith/caRecall/pull/21, I double checked that everything was in order.
+I began working on my portion of the unit tests: https://github.com/WraySmith/caRecall/pull/28 Unit tests are important so we know if we break something or if the api some how changes. I had lots of api calls in my tests and since Im not super knowledgable of dependancy injection or other testing techniques I was breaking the CI/CD pipeline with 429 (too many api requests). So I worked over the next couple days to make my tests smarter and remove the redundant ones.
+
+
+### Saturday Febuary 6th 2011
+We had a group call to discuss time lines and progress, we deemed that we were on schedule.
+Reviewed https://github.com/WraySmith/caRecall/pull/26 and https://github.com/WraySmith/caRecall/pull/27
+
+### Sunday Febuary 7th 2011
+Continued working on https://github.com/WraySmith/caRecall/pull/28
+
+### Monday Febuary 8th 2011
+Merged https://github.com/WraySmith/caRecall/pull/28 (my unit tests) after cleaning it up. We also changed out CI/CD to only use one opperating system on push/pull tests, with the option to trigger tests on MacOS, windows, and linux manually if needed. We have ~95% code coverage now.
+
