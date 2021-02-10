@@ -58,3 +58,5 @@ Continued working on https://github.com/WraySmith/caRecall/pull/28
 ### Monday Febuary 8th 2011
 Merged https://github.com/WraySmith/caRecall/pull/28 (my unit tests) after cleaning it up. We also changed out CI/CD to only use one opperating system on push/pull tests, with the option to trigger tests on MacOS, windows, and linux manually if needed. We have ~95% code coverage now.
 
+### Tuesday Febuary 9th 2011
+Working on cleaning up the documentaion with https://github.com/WraySmith/caRecall/pull/34/files. Working adding examples and fixing typos. This is an important piece if we want to have our project hosted on CRAN.
