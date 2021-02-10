@@ -60,3 +60,8 @@ Merged https://github.com/WraySmith/caRecall/pull/28 (my unit tests) after clean
 
 ### Tuesday Febuary 9th 2011
 Working on cleaning up the documentaion with https://github.com/WraySmith/caRecall/pull/34/files. Working adding examples and fixing typos. This is an important piece if we want to have our project hosted on CRAN.
+
+
+### Wednesday Febuary 10th 2011
+Continued working on roxygen documentation https://github.com/WraySmith/caRecall/pull/34/files. I am adding a details section so the doc's pdf will be top quality.
+Added a spell check package also for automated proofreading.
